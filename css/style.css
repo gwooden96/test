@@ -1,9 +1,18 @@
-h1 {
-  color: tomato;
-  background-color: skyblue;
+.navbar-nav a {
+  margin-left: 30px;
 }
 
-h2 {
-  color: purple;
-  background-color: lightseagreen;
+.navbar-nav a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.card {
+  margin: 10px;
 }
