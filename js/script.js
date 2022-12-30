@@ -32,3 +32,13 @@ laptop(())
     <a href="#" class="card-link">제품 상세 정보</a>
   </div>
 */
+
+
+
+// 팝오버 활성화
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+
+let popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+  container: 'body'
+})

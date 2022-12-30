@@ -7,12 +7,67 @@
   font-weight: bold;
 }
 
+.list-group-title {
+  color: coral;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
 .card-list {
   display: flex;
   margin: 10px;
   border-bottom: 1px solid rgb(209, 209, 209);
+  
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.card-content-title {
+  font-weight: bold;
 }
 
 .card {
   margin: 10px;
+  box-shadow: 0px 0px 10px 1px lightgray;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px 2px rgb(145, 145, 145);
+}
+
+
+.card-text {
+  border-top: 1px solid lightgrey;
+}
+
+.card-content-true {
+  color: blue;
+}
+
+.card-content-false {
+  color: red;
+}
+
+
+.ture-list li {
+  list-style-type: decimal;
+}
+
+
+.card-body button {
+  color:white;
+  background-color: skyblue;
+  border-radius: 5px;
+  border: 0 solid;
+  padding: 5px;
+}
+
+
+.card-body button:hover {
+  background-color: tomato;
 }
