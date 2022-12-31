@@ -4,7 +4,7 @@ let checkbox = [
   {name : '화면 크기대', check1 : '1kg 미만', check2 : '1.0~1.5kg', check3 : '1.5~2.0kg', check4 : '2.0~'},
   {name : '무게', check1 : '17인치', check2 : '15인치', check3 : '14인치', check4 : '13인치'},
   {name : '윈도우 설치유무', check1 : '윈도우 미포함', check2 : '윈도우 11 홈', check3 : '윈도우 11 프로', check4 : '윈도우 10 홈'},
-  {name : 'CPU 코어 수', check1 : '16코어', check2 : '8코어', check3 : '6코어', check4 : '4인치'},
+  {name : 'CPU 코어 수', check1 : '16코어', check2 : '8코어', check3 : '6코어', check4 : '4코어'},
   {name : '그래픽카드', check1 : '내장그래픽', check2 : 'RTX3070', check3 : 'RTX3060', check4 : 'RTX3050'},
 ]
 
