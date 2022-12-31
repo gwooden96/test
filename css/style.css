@@ -3,9 +3,59 @@
 }
 
 .navbar-nav a:hover {
+  color: tomato;
+  font-weight: bold;
+}
+
+.navbar-nav-right .na-link-1:hover{
   color: yellow;
   font-weight: bold;
 }
+
+.navbar-nav-right .na-link-2:hover{
+  color: greenyellow;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+.container-checkbox {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-title {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.container-checkbox label div {
+  margin-left: 30px;
+  padding: 2px;
+}
+
+.container-checkbox label div span {
+  color: white;
+}
+
+.checkbox-title span {
+  color: gold;
+  border-left: 1px solid white;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
 
 .list-group-title {
   color: coral;
