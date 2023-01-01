@@ -57,7 +57,7 @@ let laptop = [
 
 laptop.forEach((data) => {
 
-  let listCard =  `<div class="card" style="width: 30rem;">
+  let listCard =  `<div class="card" style="width: 25rem;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item list-group-title">${data.title}</li>
         </ul>
