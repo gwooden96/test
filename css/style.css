@@ -52,6 +52,12 @@
 }
 
 
+@media (max-width: 700px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
 .list-group-title {
   color: coral;
   font-weight: bold;
