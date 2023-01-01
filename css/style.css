@@ -52,17 +52,13 @@
 }
 
 
-
-
-
-
-
 .list-group-title {
   color: coral;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
 }
+
 
 .card-list {
   display: flex;

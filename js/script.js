@@ -47,7 +47,8 @@ $('.container-checkbox').append(checkboxHtml);
 /* 반복 되는 것 배열로 통합 구축 작업(상품카드 구역) */
 
 let laptop = [
-  {title : '보급형 노트북 추처 No.01', name : '레노버 아이디어패드 Slim1-14ALC R3', content : '라이젠 5000 시리즈 탑재한 가성비 사무용 노트북', true1 : '웹캠 가리개', true2 : '가벼운 무게', true3 : '저렴한 금액대', true4 : '준수한 배터리 용량', false1 : '터치패드 퀄리티 다소 떨어짐', false2 : '윈도우 설치 불편', false3 : '다소 아쉬운 저장장치', price : '399,000원', footerContent : '노트북 / 운영체제(OS): 미포함(프리도스) / 제조사기본상품 / 용도: 사무/인강용 , 휴대용 / 화면정보 35.5cm(14인치) / 1920x1080(FHD) / 220nit / 눈부심 방지 / 슬림형 베젤 / 프로세서 AMD / 라이젠3-4세대 / 루시엔 / 5300U (2.6GHz) / 쿼드(4)코어 / 메모리 DDR4 / 메모리 용량: 8GB / 3200MHz / 메모리 교체: 가능(1슬롯) / 저장장치 M.2(NVMe) / 128GB / 저장 슬롯: 1개 / 그래픽 내장그래픽 / Radeon Graphics / 네트워크 무선랜: 802.11ax(Wi-Fi 6) / 영상입출력 HDMI / 웹캠(HD) / 단자 USB-C: 1개 / USB-A: 2개 / USB 3.0 / USB 2.0 / SD카드 / 부가기능 TPM / 웹캠OFF 지원 / 입력장치 ㅡ형 방향키 / 파워 배터리: 42Wh / 어댑터: 65W / 충전단자: DC / 주요제원 두께: 17.9mm / 무게: 1.38kg / 색상: 그레이'}
+  {title : '가성비 보급형 노트북 No.01', name : '레노버 아이디어패드 Slim1-14ALC R3', content : '라이젠 5000 시리즈 탑재한 가성비 사무용 노트북', true1 : '웹캠 가리개', true2 : '가벼운 무게', true3 : '저렴한 금액대', true4 : '준수한 배터리 용량', false1 : '터치패드 퀄리티 다소 떨어짐', false2 : '윈도우 설치 불편', false3 : '다소 아쉬운 저장장치', price : '399,000원', footerContent : '노트북 / 운영체제(OS): 미포함(프리도스) / 제조사기본상품 / 용도: 사무/인강용 , 휴대용 / 화면정보 35.5cm(14인치) / 1920x1080(FHD) / 220nit / 눈부심 방지 / 슬림형 베젤 / 프로세서 AMD / 라이젠3-4세대 / 루시엔 / 5300U (2.6GHz) / 쿼드(4)코어 / 메모리 DDR4 / 메모리 용량: 8GB / 3200MHz / 메모리 교체: 가능(1슬롯) / 저장장치 M.2(NVMe) / 128GB / 저장 슬롯: 1개 / 그래픽 내장그래픽 / Radeon Graphics / 네트워크 무선랜: 802.11ax(Wi-Fi 6) / 영상입출력 HDMI / 웹캠(HD) / 단자 USB-C: 1개 / USB-A: 2개 / USB 3.0 / USB 2.0 / SD카드 / 부가기능 TPM / 웹캠OFF 지원 / 입력장치 ㅡ형 방향키 / 파워 배터리: 42Wh / 어댑터: 65W / 충전단자: DC / 주요제원 두께: 17.9mm / 무게: 1.38kg / 색상: 그레이'}
+  ,{title : '가성비 중급형 노트북 No.02', name : '레노버 아이디어패드 Slim3-15IAU7 5D 16GB램', content : '인텔 최신 CPU 탑재한 고성능 사무&작업용 노트북', true1 : '웹캠 가리개', true2 : '나름 가벼운 무게', true3 : '많은 코어 수', true4 : '준수한 배터리 용량', false1 : '터치패드 퀄리티 다소 떨어짐', false2 : '아쉬운 배터리 용량', false3 : 'USB-PD 기능 없음', price : '599,000원', footerContent : '노트북 / 운영체제(OS): 미포함(프리도스) / 구성변경상품 / 용도: 사무/인강용 / 화면정보 39.62cm(15.6인치) / 1920x1080(FHD) / NTSC: 45% / 300nit / IPS / 눈부심 방지 / 광시야각 / 슬림형 베젤 / 프로세서 인텔 / 코어i5-12세대 / 엘더레이크 / i5-1235U (1.3GHz) / 10코어(2P+8E) / 메모리 DDR4 / 메모리 용량: 16GB / 3200MHz / 메모리 교체: 가능(1슬롯) / 저장장치 M.2(NVMe) / 256GB / 저장 슬롯: 2개 / 그래픽 내장그래픽 / Iris Xe / 네트워크 무선랜: 802.11ax(Wi-Fi 6) / 영상입출력 HDMI / 웹캠(HD) / 단자 USB-C: 1개 / USB-A: 2개 / USB 3.0 / USB 2.0 / SD카드 / 부가기능 웹캠OFF 지원 / 입력장치 키보드 라이트 / ㅡ형 방향키 / 숫자 키패드(4열) / 파워 배터리: 38Wh / 충전단자: DC / 주요제원 두께: 19.9mm / 무게: 1.63kg / 색상: 그레이, 블루'}
 
 
 
@@ -56,7 +57,8 @@ let laptop = [
 
 laptop.forEach((data) => {
 
-  let listCard =  `<ul class="list-group list-group-flush">
+  let listCard =  `<div class="card" style="width: 30rem;">
+        <ul class="list-group list-group-flush">
           <li class="list-group-item list-group-title">${data.title}</li>
         </ul>
         <img src="img/${data.name}.jpg" class="card-img-top" alt="...">
@@ -69,6 +71,7 @@ laptop.forEach((data) => {
               <li>${data.true1}</li>
               <li>${data.true2}</li>
               <li>${data.true3}</li>
+              <li>${data.true4}</li>
             </ul>
             <P class="card-content-false">단점</P>
             <ul class="ture-list">
@@ -78,15 +81,18 @@ laptop.forEach((data) => {
             </ul>
           </p>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">${data.price}</li>
+        <ul class="list-group list-group-flush card-img-foorter">
+          <img src="img/${data.name}.png">
         </ul>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">금액 : ${data.price}</li>
+          </ul>
         <div class="card-body">
           <button type="button" class="btn btn-lg btn-danger">구매링크</button>
           <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="노트북 사양" data-bs-content="${data.footerContent}">제품상세정보 보기</button>
         </div>`;
 
-        $('.card').append(listCard);
+        $('.card-list').append(listCard);
 
 });
 
