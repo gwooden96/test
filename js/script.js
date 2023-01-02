@@ -1,3 +1,14 @@
+/*구매 팁 그리드 on/off*/
+
+let ctb = $('.container-tip-body');
+
+function onOff() {
+  ctb.toggle();
+}
+
+
+
+
 /* 반복 되는 것 배열로 통합 구축 작업 (체크박스 구역) */
 
 let checkbox = [
