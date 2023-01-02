@@ -38,9 +38,16 @@
   grid-gap: 10px
 }
 
+.content-tip-grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container-tip-grid .box-tip-grid {
   background: #333;
-  padding: 20px;
+  padding: 1rem;
   display: grid;
   font-size: 20px;
   place-items: center;
@@ -55,9 +62,13 @@
 
 .container-tip-grid .box-tip-grid img {
   position: relative;
-  max-width: 100px;
-  margin-bottom: 10px;
+  max-width: 250px;
+  margin-right: 20px;
+  border-radius: 10px;
+  opacity: 0.5;
 }
+
+
 
 .container-tip-grid .box-tip-grid:nth-child(1) {
   grid-column: span 1;
