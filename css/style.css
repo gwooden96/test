@@ -4,6 +4,28 @@
   box-sizing: border-box;
 }
 
+/* 브라우저 창 크기에 따른 디스플레이 (js로 처리) */
+
+@media (max-width: 768px) {
+  /*
+  .card-list {
+    flex-direction: column;
+  }
+  */
+
+  .box-tip-grid {
+    background-color: white;
+  }
+
+  .box-tip-grid {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  }
+
+}
+
+/* 네비바 */
+
 .navbar-nav a {
   margin-left: 30px;
 }
@@ -22,6 +44,8 @@
   color: greenyellow;
   font-weight: bold;
 }
+
+
 
 /* 노트북 꿀팁 그리드 */
 
@@ -141,14 +165,18 @@
 
 
 
-/* 브라우저 창 크기에 따른 디스플레이 (js로 처리) */
-/*
-@media (max-width: 760px) {
-  .card-list {
-    flex-direction: column;
-  }
+/* 상품카드 */
+
+
+.card-list {
+  display: block;
+  margin: 10px;
+  border-bottom: 1px solid rgb(209, 209, 209);
 }
-*/
+
+.card {
+  float: left;
+}
 
 .list-group-title {
   color: coral;
@@ -157,13 +185,6 @@
   text-align: center;
 }
 
-
-.card-list {
-  display: flex;
-  margin: 10px;
-  border-bottom: 1px solid rgb(209, 209, 209);
-  
-}
 
 .card-title {
   font-weight: bold;
