@@ -57,7 +57,7 @@ let laptop = [
 
 laptop.forEach((data) => {
 
-  let listCard =  `<div class="card" style="width: 25rem;">
+  let listCard =  `<div class="card" style="width: 30rem;">
         <ul class="list-group list-group-flush">
           <li class="list-group-item list-group-title">${data.title}</li>
         </ul>
@@ -96,6 +96,30 @@ laptop.forEach((data) => {
 
 });
 
+
+
+// 다크모드
+
+let cnt = 0; 
+
+let mode = document.querySelector('.mode'); 
+
+mode.addEventListener('click', function(){
+    cnt++;
+
+
+    if(cnt % 2 == 1) {
+        document.body.style.background = 'black';
+        document.querySelector('.img-mode').src="img/solid-black-sun-symbol.png"
+
+
+    } else {
+        document.body.style.background = 'white';
+        document.querySelector('.img-mode').src="img/night-mode.png"
+    }
+
+
+});
 
 
 
