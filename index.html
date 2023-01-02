@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body data-theme="dark">
 
   <!-- 네비바 -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,8 +28,8 @@
             <a class="nav-link" href="#">게임용 노트북</a>
           </div>
           <div class="navbar-nav navbar-nav-right">
-            <a class="nav-link na-link-1" href="#">노트북 구매 tip</a>
-            <a class="nav-link na-link-2" href="#">커뮤니티</a>
+            <a class="nav-link na-link-1" href="#">특가 게시판</a>
+            <a class="nav-link na-link-2" href="#">질문 게시판</a>
           </div>
         </div>
       </div>
@@ -59,9 +59,46 @@
       </button>
     </div>
 
+    <!-- 노트북 팁 그리드 -->
+    <div class="container-tip-body">
+      <div class="container-tip-grid">
+        <div class="box-tip-grid">
+            <div class="content-tip-grid">
+              <img src="http://placehold.it/150X150">
+              <p>인텔 CPU : 코어i3 -> 코어i5 -> 코어i7 -> 코어i9 <br> 비추천CPU 인텔(아톰 -> 셀로론 -> 팬티엄)</p>
+              <p>라이젠 CPU : 라이젠3 -> 라이제 5 -> 라이젠 7 -> 라이젠 9</p>
+            </div>
+        </div>
+        <div class="box-tip-grid">
+          <div class="content-tip-grid">
+            <img src="http://placehold.it/150X150">
+            <p>CPU 제품명 앞에 붙는 알파벳 의미</p>
+            <p>U : 저전력(성능을 강제로 다운시킨 대신 발열/팬소음도 낮음) <br>
+               H : 고성능(CPU 본연에 성능을 모두 출력 대신 발열/팬소음 높음)</p>
+          </div>
+        </div>
+        <div class="box-tip-grid">
+          <div class="content-tip-grid">
+            <img src="http://placehold.it/150X150">
+            <p>작업 속도에 영향을 주는 메모리(RAM) <br> 영상감상, 문서작업은 4GB로도 충분하나 <br> 최소 8GB 메모리를 권장하고 있다.</p>
+          </div>
+        </div>
+        <div class="box-tip-grid">
+          <div class="content-tip-grid">
+            <img src="http://placehold.it/150X150">
+            <p>1kg 미만 : 항상 휴대하고 다닐 목적이면 매우 강추하는 무게 <br>
+               1.0 ~ 1.5kg : 데일리 휴대성으로 괜찮은 무게 <br> 
+               1.5kg ~ 2.0kg : 데일로 휴대무게에 마지노선 <br>
+               2.0kg 이상 : 본인차량이 있으면 휴대가 좋으나 대중교통 이용시 무게가 부담이 된다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- 노트북 인기 사양 체크박스 -->
     <nav class="navbar-expand-lg navbar-dark bg-dark">
+      <h4 class="checkbox-title-top">상세검색</h4>
       <div class="container-fluid">
         <div class="cpntainer-checkbox-main">
           <div class="container-checkbox">
@@ -69,6 +106,7 @@
           </div>
       </div>
     </nav>
+
     
 
 
@@ -81,8 +119,17 @@
 
 
       
-
-
+    <form>
+      <div class="footer-up-btn">
+        <div class="up-btn-box">
+          <!-- <button type="button" class="mode"></button> -->
+          <button type="button" class="mode"><img class="img-mode" src="img/night-mode.png"></button>
+        </div>
+        <div class="up-btn-box">
+          <a href="#"><img src="img/up.png"></a>
+        </div>
+      </div>
+    </form>
 
 
   <!-- JavaScript Bundle with Popper -->
