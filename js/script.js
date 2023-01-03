@@ -1,4 +1,81 @@
 /* 반응형 꿀팁 그리드 저장변수 */
+let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample">
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      'CPU'종류에 대한 팁!
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+    <div class="accordion-body">
+      <div class="content-tip-grid">
+        <img src="img/tip-grid-web-New-01.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      '모니터'종류에 대한 팁!
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+    <div class="accordion-body">
+      <div class="content-tip-grid">
+        <img src="img/tip-grid-web-New-02.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      '윈도우' 종류에 대한 팁!
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+    <div class="accordion-body">
+      <div class="content-tip-grid">
+        <img src="img/tip-grid-web-New-03.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+      노트북 '무게'에 대한 팁!
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+    <div class="accordion-body">
+      <div class="content-tip-grid">
+        <img src="img/tip-grid-web-New-04.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+      '메모리' 종류에 대한 팁!
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+    <div class="accordion-body">
+      <div class="content-tip-grid">
+        <img src="img/tip-grid-web-New-05.png">
+      </div>
+    </div>
+  </div>
+</div>
+</div>`;
+
+
+
+
+
 
 let cardListMb = `<div class="container-tip-grid">
   <div class="box-tip-grid">
@@ -32,45 +109,27 @@ let cardListMb = `<div class="container-tip-grid">
   let cardListWeb = `<div class="container-tip-grid">
   <div class="box-tip-grid">
       <div class="content-tip-grid">
-          <img src="img/tip-image-01.png">
-          <p>인텔 CPU : 코어i3 -> 코어i5 -> 코어i7 -> 코어i9
-            <br>비추천CPU 인텔(아톰 -> 셀로론 -> 팬티엄)
-            <br>라이젠 CPU : 라이젠3 -> 라이제 5 -> 라이젠 7 -> 라이젠 9
-            <br><br>- CPU 제품명 앞에 붙는 알파벳 의미
-            <br>U : 저전력(성능을 강제로 다운시킨 대신 발열/팬소음 낮음) ex) 6600'U'
-            <br>H : 고성능(CPU 본연에 성능을 모두 출력하는 대신 발열/팬소음 높음) ex) 6600'H'</라이젠>
+          <img src="img/tip-grid-web-New-01.png">
       </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-image-04.png">
-      <p>노트북을 사용하기 위한 필수 운영체제
-        <br>운영체제 미포함 : 의미 그대로 윈도우가 설치되어 있지 않은 상태로 직접 설치 필요
-        <br>윈도우 10 또는 윈도우 11이 포함되어있다면 기본적으로 설치되어 상품이 출고 별도 설치 필요 없음</p>
+      <img src="img/tip-grid-web-New-02.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-image-02.png">
-      <p>작업 속도에 영향을 주는 메모리(RAM) <br> 영상감상, 문서작업은 4GB로도 충분하나 <br> 최소 8GB 메모리를 권장하고 있다.</p>
+      <img src="img/tip-grid-web-New-03.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-image-06.png">
-      <p>노트북 그래픽카드 TGP란? <br>
-         노트북 그래픽의 가용 전력을 의미하며, 수치가 높을 수록 성능이 좋다 
-         <br>같은 금액대 노트북이지만 한쪽은 RTX 3060 80W 다른한쪽은 3060 100W 일때 후자가 무조건 좋다
-        <br>단! TGP인 전력이 높을수록 발열과 소음은 항상 붙어 다니는 관계</p>
+      <img src="img/tip-grid-web-New-04.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-image-05.png">
-      <p>1kg 미만 : 항상 휴대하고 다닐 목적이면 매우 강추하는 무게 <br>
-         1.0 ~ 1.5kg : 데일리 휴대성으로 괜찮은 무게 <br> 
-         1.5kg ~ 2.0kg : 데일로 휴대무게에 마지노선 <br>
-         2.0kg 이상 : 본인차량이 있으면 휴대가 좋으나 대중교통 이용시 무게가 부담이 된다.</p>
+      <img src="img/tip-grid-web-New-05.png">
     </div>
   </div>
 </div>`
@@ -84,14 +143,15 @@ const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
     	if(mediaViewContent.matches === true){
         //alert('모바일 사이즈 입니다.');
         contTbody.html(cardListMb);
-        $('.box-tip-grid').css('background', 'white');
-        $('.box-tip-grid').css('border-bottom', '1px dashed lightgray');
+
+        $('.box-tip-grid').css('border', '1px dashed lightgray');
         $('.content-tip-grid img').css('width', '100%');
       } else {
       // alert('원본 사이즈 입니다.');
-        contTbody.html(cardListWeb);
+        contTbody.html(cardListWebNew);
         $('.card-list').css('flex-direction', '');
-        $('.content-tip-grid img').css('max-width', '250px');
+        $('.box-tip-grid').css('border', '1px dashed lightgray');
+        $('.content-tip-grid img').css('width', '100%');
       }
       
     }
@@ -173,7 +233,7 @@ laptop.forEach((data) => {
         <ul class="list-group list-group-flush">
           <li class="list-group-item list-group-title">${data.title}</li>
         </ul>
-        <img src="img/${data.name}.jpg" class="card-img-top" alt="...">
+        <img src="img/${data.name}.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${data.name}</h5>
           <p class="card-text">
@@ -194,7 +254,7 @@ laptop.forEach((data) => {
           </p>
         </div>
         <ul class="list-group list-group-flush card-img-foorter">
-          <img src="img/${data.name}.png">
+          <img src="img/${data.title}.png">
         </ul>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">금액 : ${data.price}</li>
@@ -212,26 +272,28 @@ laptop.forEach((data) => {
 
 // 다크모드
 
-let cnt = 0; 
+// let cnt = 0; 
 
-let mode = document.querySelector('.mode'); 
+// let mode = document.querySelector('.mode'); 
 
-mode.addEventListener('click', function(){
-    cnt++;
-
-
-    if(cnt % 2 == 1) {
-        document.body.style.background = 'black';
-        document.querySelector('.img-mode').src="img/solid-black-sun-symbol.png"
+// mode.addEventListener('click', function(){
+//     cnt++;
+//     console.log(cnt);
 
 
-    } else {
-        document.body.style.background = 'white';
-        document.querySelector('.img-mode').src="img/night-mode.png"
-    }
+//     if(cnt % 2 == 1) {
+//         document.body.style.background = 'black';
+//         document.querySelector('.container-tip-body-main').style.blackground = '';
+//         document.querySelector('.img-mode').src="img/solid-black-sun-symbol.png"
 
 
-});
+//     } else {
+//         document.body.style.background = 'white';
+//         document.querySelector('.img-mode').src="img/night-mode.png"
+//     }
+
+
+// });
 
 
 
