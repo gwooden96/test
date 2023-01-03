@@ -95,7 +95,7 @@ const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
       }
       
     }
-    
+    viewChangeHandler(mediaViewContent);
     mediaViewContent.addEventListener("change", viewChangeHandler);
 
   
