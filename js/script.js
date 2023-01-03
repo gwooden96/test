@@ -76,33 +76,33 @@ let cardListMb = `<div class="container-tip-grid">
 </div>`
 
 /* 모바일 크기에 따른 변화 */
+let contTbody = $('.container-tip-body');
 
 const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
-	console.log(mediaViewContent)
-    
-    const viewChangeHandler = (mediaViewContent) => {  					// 3
+
+    let viewChangeHandler = (mediaViewContent) => {  					// 3
     	if(mediaViewContent.matches === true){
         //alert('모바일 사이즈 입니다.');
-        $('.container-tip-body').html(cardListMb);
+        contTbody.html(cardListMb);
         $('.box-tip-grid').css('background', 'white');
-        $('.box-tip-grid').css('background', 'white');
-        $('.box-tip-grid').css('border-bottom', '1px solid lightgray');
-    } else {
-     // alert('원본 사이즈 입니다.');
-      $('.container-tip-body').html(cardListWeb);
-      $('.card-list').css('flex-direction', '');
+        $('.box-tip-grid').css('border-bottom', '1px dashed lightgray');
+        $('.content-tip-grid img').css('width', '100%');
+      } else {
+      // alert('원본 사이즈 입니다.');
+        contTbody.html(cardListWeb);
+        $('.card-list').css('flex-direction', '');
+        $('.content-tip-grid img').css('max-width', '250px');
+      }
       
-    }
-      
-
     }
     
-    mediaViewContent.addEventListener("change", viewChangeHandler)
+    mediaViewContent.addEventListener("change", viewChangeHandler);
 
   
 /* 태블릿 크기에 따른 변화 */
 
 /*미작성*/
+
 
 
 

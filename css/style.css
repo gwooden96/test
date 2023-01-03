@@ -13,14 +13,10 @@
   }
   */
 
-  .box-tip-grid {
-    background-color: white;
-  }
-
-  .box-tip-grid {
+  /* .box-tip-grid {
     background-color: white;
     border-bottom: 1px solid lightgray;
-  }
+  } */
 
 }
 
@@ -29,6 +25,7 @@
 .navbar-nav a {
   margin-left: 30px;
 }
+
 
 .navbar-nav a:hover {
   color: tomato;
@@ -85,9 +82,12 @@
 
 }
 
+.container-tip-body {
+  display: block;
+}
+
 .content-tip-grid {
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -107,11 +107,10 @@
 }
 
 
-.container-tip-grid .box-tip-grid img {
+.box-tip-grid img {
   position: relative;
-  max-width: 250px;
-  margin-right: 20px;
   border-radius: 10px;
+  float: left;
 }
 
 
