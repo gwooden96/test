@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 브라우저 창 크기에 따른 디스플레이 (js로 처리) */
+
+@media (max-width: 768px) {
+  /*
+  .card-list {
+    flex-direction: column;
+  }
+  */
+
+  /* .box-tip-grid {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  } */
+
+}
+
+/* 네비바 */
+
+.navbar-nav a {
+  margin-left: 30px;
+}
+
+
+.navbar-nav a:hover {
+  color: tomato;
+  font-weight: bold;
+}
+
+.navbar-nav-right .na-link-1:hover{
+  color: yellow;
+  font-weight: bold;
+}
+
+.navbar-nav-right .na-link-2:hover{
+  color: greenyellow;
+  font-weight: bold;
+}
+
+
+
+/* 노트북 꿀팁 content */
+
+.accordion-item {
+  margin: 20px;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+.accordion-button h3{
+  font-size: large;
+  font-weight: bold;
+  color: purple;
+}
+
+.container-tip-body-main {
+  display: flex;
+  justify-content : center;
+  width: 100%;
+  background: rgb(237, 237, 237);
+}
+
+.container-tip-body {
+  width: 80%;
+
+}
+
+
+.content-tip-grid {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ .box-tip-grid {
+  background: white;
+  padding: 1rem;
+  display: grid;
+  font-size: 18px;
+  place-items: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+
+
+
+
+/* 상세검색 체크박스  */
+
+.container-checkbox {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.checkbox-title-top{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.checkbox-title-top {
+  color: white;
+}
+
+.checkbox-title {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+.container-checkbox label div {
+  margin-left: 30px;
+  padding: 2px;
+}
+
+.container-checkbox label div span {
+  color: white;
+}
+
+.checkbox-title span {
+  color: gold;
+  border-left: 1px solid white;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+
+
+/* 상품카드 웹 버전용 */
+
+
+.container-card-pcv {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-row-pcv {
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
+
+
+
+.box {
+  padding: 5px;
+  
+}
+
+.box-first {
+  max-width: 150px;
+  padding: 5px;
+}
+
+.box-first .box-title-text {
+  text-align: center;
+}
+
+.box-first img {
+  width: 100%;
+
+}
+
+.boxOne {
+  max-width: 200px;
+  width: 100%;
+}
+
+.boxTwo {
+  display: flex;
+
+}
+
+
+
+.boxTwo .card-text-true {
+  color: blue;
+  font-size: large;
+}
+
+
+.boxTwo .card-text-false {
+  color: red;
+  font-size: large;
+}
+
+.box .box-nav-item {
+  list-style-type: decimal;
+}
+
+
+.boxFive {
+  width: 110px;
+  text-align: center;
+}
+
+
+
+.boxSix {
+  position: sticky;
+  width: 15%;
+}
+
+.boxSix button {
+  margin: 5px;
+}
+
+
+
+
+/* 위로가기 버튼 */
+
+.up-btn-box{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 2px 2px lightgray;
+  margin-top: 10px;
+}
+
+.footer-up-btn{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  
+}
+
+
+
+
+
+
+/* 다크모드 */
+.mode {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: no-repeat;
+}
