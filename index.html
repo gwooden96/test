@@ -28,26 +28,40 @@
 
 
   <!-- 네비바 -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">노트북 용도별 추천!</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav navbar-nav-left">
-            <a class="nav-link" href="#">사무용 노트북</a>
-            <a class="nav-link" href="#">코딩용 노트북</a>
-            <a class="nav-link" href="#">디자인용 노트북</a>
-            <a class="nav-link" href="#">게임용 노트북</a>
-          </div>
-          <div class="navbar-nav navbar-nav-right">
-            <a class="nav-link na-link-1" href="#">특가 게시판</a>
-            <a class="nav-link na-link-2" href="#">질문 게시판</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-bg-bl">
+  <div class="container-fluid container-fluid-text">
+    <a class="navbar-brand" href="#">노트북 용도별 추천!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">특가 소식</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">질문 게시판</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            용도별 추천
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">사무용 노트북</a></li>
+            <li><a class="dropdown-item" href="#">코딩 노트북</a></li>
+            <li><a class="dropdown-item" href="#">디자인 노트북</a></li>
+            <li><a class="dropdown-item" href="#">게임용 노트북</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 login-button-size" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">검색</button>
+        <button class="btn btn-outline-success" type="button" onclick = "location.href = 'loginPage.html'">로그인/가입</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
     <!-- 슬라이드 쇼 -->
@@ -104,6 +118,10 @@
     <!-- 제품카드 사무용 노트북 -->
     <div class="card-list">
       
+      </div>
+
+    <div class="container-card-pcv">
+
       </div>
 
 
