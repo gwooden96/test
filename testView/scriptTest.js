@@ -9,7 +9,7 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
     <div class="accordion-body">
       <div class="content-tip-grid">
-        <img src="img/tip-grid-web-New-01.png">
+        <img src="../img/tip-grid-web-New-01.png">
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
     <div class="accordion-body">
       <div class="content-tip-grid">
-        <img src="img/tip-grid-web-New-02.png">
+        <img src="../img/tip-grid-web-New-02.png">
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
     <div class="accordion-body">
       <div class="content-tip-grid">
-        <img src="img/tip-grid-web-New-03.png">
+        <img src="../img/tip-grid-web-New-03.png">
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
   <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
     <div class="accordion-body">
       <div class="content-tip-grid">
-        <img src="img/tip-grid-web-New-04.png">
+        <img src="../img/tip-grid-web-New-04.png">
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
   <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
     <div class="accordion-body">
       <div class="content-tip-grid">
-        <img src="img/tip-grid-web-New-05.png">
+        <img src="../img/tip-grid-web-New-05.png">
       </div>
     </div>
   </div>
@@ -80,27 +80,27 @@ let cardListWebNew = `<div class="accordion" id="accordionPanelsStayOpenExample"
 let cardListMb = `<div class="container-tip-grid">
   <div class="box-tip-grid">
       <div class="content-tip-grid">
-          <img src="img/tip-grid-mobile-01.png">
+          <img src="../img/tip-grid-mobile-01.png">
       </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-mobile-02.png">
+      <img src="../img/tip-grid-mobile-02.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-mobile-03.png">
+      <img src="../img/tip-grid-mobile-03.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-mobile-04.png">
+      <img src="../img/tip-grid-mobile-04.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-mobile-05.png">
+      <img src="../img/tip-grid-mobile-05.png">
     </div>
   </div>
   </div>`
@@ -109,27 +109,27 @@ let cardListMb = `<div class="container-tip-grid">
   let cardListWeb = `<div class="container-tip-grid">
   <div class="box-tip-grid">
       <div class="content-tip-grid">
-          <img src="img/tip-grid-web-New-01.png">
+          <img src="../img/tip-grid-web-New-01.png">
       </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-web-New-02.png">
+      <img src="../img/tip-grid-web-New-02.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-web-New-03.png">
+      <img src="../img/tip-grid-web-New-03.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-web-New-04.png">
+      <img src="../img/tip-grid-web-New-04.png">
     </div>
   </div>
   <div class="box-tip-grid">
     <div class="content-tip-grid">
-      <img src="img/tip-grid-web-New-05.png">
+      <img src="../img/tip-grid-web-New-05.png">
     </div>
   </div>
 </div>`
@@ -237,7 +237,7 @@ laptop.forEach((data) => {
                       <div class="content-row-pcv">
                         <div class="box-first box">
                           <p class="box-title-text">${data.title}</p>
-                          <img src="img/${data.name}.png">
+                          <img src="../img/${data.name}.png">
                         </div>
                         <div class="boxOne box">
                           <h5>${data.name}</h5>
@@ -259,7 +259,7 @@ laptop.forEach((data) => {
                           </ul>
                         </div>
                         <div class="boxFour box">
-                          <img src="img/${data.content}.png">
+                          <img src="../img/${data.content}.png">
                         </div>
                         <div class="boxFive box">
                           <p class="card-text">금액 :</p>
