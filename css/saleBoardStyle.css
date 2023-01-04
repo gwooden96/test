@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 브라우저 창 크기에 따른 디스플레이 (js로 처리) */
+
+@media (max-width: 768px) {
+  /*
+  .card-list {
+    flex-direction: column;
+  }
+  */
+
+  /* .box-tip-grid {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  } */
+
+}
+
+/* 네비바 */
+
+.navbar-bg-bl {
+  box-shadow: 0px 2px 10px 2px black;
+
+}
+
+
+.btn-outline-success:nth-child(2) {
+  width: 25%;
+}
+
+
+.btn-outline-success:nth-child(3) {
+  width: 55%;
+  margin-left: 5px;
+}
+
+
+/* 게시판 */
+
+.board-main {
+  width: 100%;
+}
+
+.d-none{
+  display: none;
+}
+
+
+
+.board{
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+.table{
+  font-size :20px;
+  border-collapse: collapse;
+  width: 1200px;
+  margin-top:200px;
+  border: 1px solid gray;    
+  text-align: center;
+}
+
+.thead td {
+  background: #B2B2B2;
+}
+
+
+
+td{
+  height: 40px;
+  border-bottom:1px solid black;
+}
+
+
+
+tr td:nth-child(2){
+  width: 750px;
+}
+
+
+
+/* ********페이징******** */
+
+.page-nation li{ 
+  list-style: none;
+} 
+
+
+
+.page-wrap {
+  text-align:center;
+  font-size:0;
+
+}
+
+.page-nation  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+
+
+
+.page-nation a {
+  display:block;
+  margin:0 3px;
+  float:left;
+  border:1px solid #e6e6e6;
+  width:28px;
+  height:28px;
+  line-height:28px;
+  text-align:center;
+  background-color:#fff;
+  font-size:13px;
+  color:black;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.page-nation a:hover{
+  background-color:gray;
+  color:white;
+}
+
+
+
+
+
+/* 위로가기 버튼 */
+
+.up-btn-box{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 2px 2px lightgray;
+  margin-top: 10px;
+}
+
+.footer-up-btn{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  
+}
+
+
+/* 다크모드 */
+.mode {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: no-repeat;
+}
