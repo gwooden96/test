@@ -134,7 +134,10 @@ let cardListMb = `<div class="container-tip-grid">
   </div>
 </div>`
 
+
 /* 모바일 크기에 따른 변화 */
+
+
 let contTbody = $('.container-tip-body');
 
 const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
@@ -226,6 +229,7 @@ let laptop = [
 
 ]
 
+    
 
 laptop.forEach((data) => {
 
@@ -266,7 +270,8 @@ laptop.forEach((data) => {
 
         $('.card-list').append(listCard);
 
-});
+      });
+
 
 
 
