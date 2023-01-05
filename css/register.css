@@ -12,7 +12,6 @@
 
 body {
   font: 15px/1.8 'Noto Sans KR', sans-serif;
-  width: 700px;
   margin: auto;
 }
 
@@ -99,10 +98,6 @@ html, body {
   display: none;
 }
 
-.chcek-content-show-btn {
-  
-}
-
 .menubars-overf {
   overflow: scroll;
   color: rgb(150, 150, 150);
@@ -130,7 +125,7 @@ html, body {
 /* 회원가입에 필요한 정보 입력칸 */
 
 .register-input-box input {
-  width: 400px;
+  width: 400px; /* 모바일 200px */
   height: 50px;
   border-radius: 5px;
   padding-left: 20px;
@@ -234,7 +229,7 @@ html, body {
 .reg_req_btn {
   margin-top: 30px;
   font-size: 1.2em;
-  width: 500px;
+  width: 500px; /* 모바일 200px */
   height: 50px;
   border-radius: 10px;
   margin-bottom: 24px;
