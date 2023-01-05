@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+    <title>회원가입 : 랩탑초이스</title>
+</head>
+<body>
+  <!--
+    <h1>회원 가입</h1>
+    <form>
+        <div class="id_input_box">
+            <input id="id_txt" type="text" placeholder="아이디를 입력하세요.">
+            <p class="id_input_check"></p>
+            <button class="input_confirm_btn" id="id_confirm">확인</button>
+        </div>
+        
+        <div class="pw_input_box">
+            <input id="pw_txt" type="password" placeholder="비밀번호를 입력 하세요.">
+            <p class="pw_input_check"></p>
+            <button class="input_confirm_btn" id="pw_confirm">확인</button>
+        </div>
+        <div class="email_input_box">
+            <input id="email_txt" type="email" placeholder="이메일을 입력 하세요.">
+            <p class="email_input_check"></p>
+            <button class="input_confirm_btn" id="email_confirm">확인</button>
+        </div>
+        <div class="phone_input_box">
+            <input id="phone_txt" type="tel" placeholder="전화번호를 입력 하세요.">
+            <p class="phone_input_check"></p>
+            <button class="input_confirm_btn" id="phone_confirm">확인</button>
+        </div>
+        <button class="reg_req_btn">가입 요청</button>
+    </form>
+-->
+
+
+<div id="container">
+  <div id="wrapper">
+    <div id="logeheader">
+      <a href="index.html">
+        <img class="headerImg" src="img/LAPTOPCHIOOSELOGO.png">
+        회원가입
+      </a>
+    </div>
+
+    <div class="register-user-type">
+      일반회원
+    </div>
+
+    <div class="register-content">
+      <form>
+        <div class="register-box">
+          아래 항목을 필수로 입력해주세요.
+        </div>
+
+        <!-- 회원가입 전 필수 항목 체크 박스 및 내용보기 -->
+        <div class="register-checkbox">
+          <input type="checkbox" id="checkbox1"  name="ageAgree">
+          <label for="checkbox1">만 14세 이상입니다 <span class="checkbox-text-color">(필수)</span></label>
+
+          <input id="check-btn1" type="checkbox" />
+          <label class="chcek-content-show-btn" for="check-btn1">내용보기▼</label>
+          <p class="menubars1 menubars-overf">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+          <br>
+
+          <input  type="checkbox" id="checkbox2"  name="ageAgree">
+          <label for="checkbox2">서비스 이용 약관 <span class="checkbox-text-color">(필수)</span></label>
+
+          <input id="check-btn2" type="checkbox" />
+          <label class="chcek-content-show-btn" for="check-btn2">내용보기▼</label>
+          <p class="menubars2 menubars-overf">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+          <br>
+
+          <input type="checkbox" id="checkbox3"  name="ageAgree">
+          <label for="checkbox3">개인정보 수집 및 이용 <span class="checkbox-text-color">(필수)</span></label>
+
+          <input id="check-btn3" type="checkbox" />
+          <label class="chcek-content-show-btn" for="check-btn3">내용보기▼</label>
+          <p class="menubars3 menubars-overf">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+          <br>
+
+          <input class="check-content-btn-border" type="checkbox" id="checkbox4" name="ageAgree">
+          <label for="checkbox4">이벤트/특가소식혜택 이메일 수신 (선택)</label>
+        </div>
+
+        <!-- 회원가입에 필요한 정보 입력 인풋 -->
+            <div class="email_input_box register-input-box">
+              <p class="input-box-ex">이메일</p>
+              <input id="email_txt" type="email" placeholder="이메일 주소 입력">
+              <p class="email_input_check"></p>
+              <button class="input_confirm_btn" id="email_confirm">확인</button>
+            </div>
+
+            <div class="id_input_box register-input-box">
+              <p class="input-box-ex">아이디</p>
+              <input id="id_txt" type="text" placeholder="영문 4자 이상, 최대20자">
+              <p class="id_input_check"></p>
+              <button class="input_confirm_btn" id="id_confirm">중복 확인</button>
+            </div>
+          
+            <div class="pw_input_box register-input-box">
+              <p class="input-box-ex">비밀번호</p>
+              <input id="pw_txt" type="password" placeholder="숫자, 영문, 특수문자 포함 8자 이상">
+              <p class="pw_input_check"></p>
+              <button class="input_confirm_btn" id="pw_confirm">확인</button>
+            </div>
+
+            <div class="pw_input_box_re register-input-box">
+              <p class="input-box-ex">비밀번호 확인</p>
+              <input id="pw_txt_re" type="password" placeholder="숫자, 영문, 특수문자 포함 8자 이상">
+              <p class="pw_input_check_re"></p>
+              <button class="input_confirm_btn" id="pw_confirm_re">확인</button>
+            </div>
+
+            <div class="name_input_box register-input-box">
+              <p class="input-box-ex">이름</p>
+              <input id="name_txt" type="tel" placeholder="한글 8자, 영문 16자 까지 가능">
+              <p class="name_input_check"></p>
+              <button class="input_confirm_btn" id="name_confirm">확인</button>
+            </div>
+
+            <div class="nickname_input_box register-input-box">
+              <p class="input-box-ex">닉네임</p>
+              <input id="nickname_txt" type="tel" placeholder="한글 8자, 영문 16자 까지 가능">
+              <p class="nickname_input_check"></p>
+              <button class="input_confirm_btn" id="nickname_confirm">확인</button>
+            </div>
+
+            <div class="phone_input_box register-input-box">
+              <p class="input-box-ex">전화번호</p>
+              <input id="phone_txt" type="tel" placeholder="전화번호를 입력 하세요.">
+              <p class="phone_input_check"></p>
+              <button class="input_confirm_btn" id="phone_confirm">확인</button>
+            </div>
+          <button class="reg_req_btn">회원 가입</button>
+       </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
