@@ -1,3 +1,34 @@
+
+
+const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
+
+    let viewChangeHandler = (mediaViewContent) => {  					// 3
+    	if(mediaViewContent.matches === true){
+        $('#container').css('width', '400px');
+        $('.register-input-box input').css('width', '300px');
+        $('.reg_req_btn').css('width', '400px');
+        $('#wrapper').css('padding', '0');
+
+
+      } else {
+        $('body').css('width', '700px');
+        $('#container').css('width', '700px');
+        $('.register-input-box input').css('width', '400px');
+        $('#wrapper').css('padding', '100px');
+        $('.reg_req_btn').css('width', '500px');
+      }
+      
+    }
+    viewChangeHandler(mediaViewContent);
+    mediaViewContent.addEventListener("change", viewChangeHandler);
+
+
+
+//체크박스 모두 체크 기능
+
+
+
+
 // 정규식 조건
 const regexId = /^\w{8,20}$/;
 const regexPw = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$/;
