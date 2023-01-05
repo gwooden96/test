@@ -15,21 +15,20 @@ html, body {
 }
 
 #container {
-  background-color: rgb(252, 252, 252);
-  width: 700px;
+  background-color: rgb(252, 252, 252); 
+  width: 700px; /* 모바일 400px */
   margin: auto;
-  height: 100%;
+  height: 1000px;
 }
 
 #wrapper {
-
   width: 100%;
-  padding: 100px;
+  padding: 100px; /* 모바일 30px 100px 100px 100px */
   box-sizing: border-box;
 }
 
-img {
-  width: 50%;
+.headerImg {
+  width: 50%; /* 모바일 100% */
 }
 
 #logeheader {
@@ -77,50 +76,52 @@ img {
 
 
 
-.loginWrap2 {
+.loginSns {
   margin-top: 50px;
   text-align: center;
-}
 
+}
 
 a {
   text-decoration: none;
-  color: gray;
+  color: gray;  
 }
 
-.loginWrap2 div a {
+.loginSns-list {
+  display: flex; 
+  justify-content: center; 
+}
+
+.loginSns-list div {
+
+}
+
+
+.loginSns div a {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 10px;
-  width: 25%;
   box-sizing: border-box;
   margin-bottom: 50px;
+
 }
 
-.loginWrap2 div a:nth-child(1) {
-  margin-right: 6%;
-}
-
-.loginWrap2 div a:nth-child(2) {
-  margin-right: 6%;
-}
-
-.loginWrap2 h2 {
+.loginSns h2 {
   margin-bottom: 5%;
   color: rgb(61, 61, 61);
 }
 
-.loginWrap2 div a:nth-child(1):hover {
+.loginSnsColor1:hover {
   background-color: #03C75a;
   color: white;
 }
 
-.loginWrap2 div a:nth-child(2):hover {
+.loginSnsColor2:hover {
   background-color: #4f2817;
   color: white;
 }
 
-.loginWrap2 div a:nth-child(3):hover {
+.loginSnsColor3:hover {
   background-color: rgb(40, 88, 176);
   color: white;
 }
@@ -131,23 +132,18 @@ a {
 }
 
 .serchWrap a {
-  margin: 0 10px;
   color: #444;
 }
 
 #footer {
-  text-align: center;
-  margin-top: 50px;
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
-#footer img {
-  width: 80px;
-  height: 100%;
-  vertical-align: middle;
+.footerImg {
+
 }
 
-.loginWrap {
-  border-bottom: 1px solid #ccc;
-  overflow: auto;
-  padding-bottom: 20px;
-}
