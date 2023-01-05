@@ -45,3 +45,10 @@ https://gwooden96.github.io/webMiniProject/
   <li>github</li>
 </ul>
 <hr>
+
+<img src="https://github.com/gwooden96/ImageAdd/blob/main/miniPJimg/kjh_miniPJ.png?raw=true" width="50%" height="50%">
+
+
+<img src="https://github.com/gwooden96/ImageAdd/blob/main/miniPJimg/kjh_miniPJ_login.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/gwooden96/ImageAdd/blob/main/miniPJimg/kjh_miniPJ_register.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/gwooden96/ImageAdd/blob/main/miniPJimg/kjh_miniPJ_saleBoard.png?raw=true" width="100%" height="100%">
