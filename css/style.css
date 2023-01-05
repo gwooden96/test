@@ -4,21 +4,9 @@
   box-sizing: border-box;
 }
 
-/* 브라우저 창 크기에 따른 디스플레이 (js로 처리) */
 
-@media (max-width: 768px) {
-  /*
-  .card-list {
-    flex-direction: column;
-  }
-  */
 
-  /* .box-tip-grid {
-    background-color: white;
-    border-bottom: 1px solid lightgray;
-  } */
 
-}
 
 /* 네비바 */
 
@@ -37,6 +25,9 @@
   width: 55%;
   margin-left: 5px;
 }
+
+
+
 
 
 /* 노트북 꿀팁 content */
@@ -93,66 +84,51 @@
 
 /* 상세검색 체크박스  */
 
-.container-checkbox {
-  max-width: 800px;
-  margin: auto;
-  display: flex;
+.laptop-checkbox-container {
+  width: 100%;
 
-  flex-wrap: wrap;
 }
 
-.checkbox-title-top{
+.laptop-checkbox-list {
+  display: block;
+  border: 1px solid lightgray;
+  padding: 20px;
   text-align: center;
-  padding-top: 10px;
 }
 
-.checkbox-title-top {
-  color: white;
-}
-
-.checkbox-title {
-  margin-right: 10px;
+.laptop-checkbox-list span {
+  margin-right: 20px;
   font-weight: bold;
 }
 
-
-.container-checkbox label div {
-  margin-left: 30px;
-  padding: 2px;
+.laptop-checkbox-list label {
+  margin-right: 40px;
+  padding: 5px;
+  font-size: 12px;
 }
 
-.container-checkbox label div span {
-  color: white;
-}
-
-.checkbox-title span {
-  color: gold;
-  border-left: 1px solid white;
-  margin-left: 20px;
-  padding-left: 20px;
-}
 
 
 
 /* 상품카드 */
 
+.card-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .card-list {
-  display: block;
-  margin: 10px;
-  border-bottom: 1px solid rgb(209, 209, 209);
-  
+  width: 100%;
+  display: flex;
 }
 
-.card {
-  float: left;
-}
 
 
 .list-group-title {
   color: coral;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 
   
@@ -161,7 +137,7 @@
 
 .card-title {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -194,178 +170,27 @@
 
 .ture-list li {
   list-style-type: decimal;
+  font-size: 14px;
+}
+
+.card-body-btn {
+  text-align: center;
+  margin: 10px;
 }
 
 
-.card-body button {
+.card-body-btn button {
   color:white;
   background-color: skyblue;
   border-radius: 5px;
   border: 0 solid;
-  padding: 5px;
+  padding: 2%;
+  margin: 5px
 }
 
 
-.card-body button:hover {
+.card-body-btn button:hover {
   background-color: tomato;
-}
-
-
-/* 상품카드 웹 버전용 */
-
-.container-card-pcv {
-  width: 100%;
-
-  box-sizing: border-box;
-}
-
-.content-row-pcv {
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid lightgray;
-  position: relative;
-}
-
-.box {
-  display: block;
-  padding: 5px;
-}
-
-.box-first {
-  max-width: 150px;
-  padding: 5px;
-}
-
-.box-first .box-title-text {
-  text-align: center;
-  
-}
-
-.box-first img {
-  width: 100%;
-
-}
-
-.boxOne {
-width: 200px;
-
-}
-
-.boxTwo {
-  display: flex;
-}
-
-
-
-.boxTwo .card-text-true {
-  color: blue;
-  font-size: large;
-}
-
-
-.boxTwo .card-text-false {
-  color: red;
-  font-size: large;
-}
-
-.box .box-nav-item {
-  list-style-type: decimal;
-}
-
-
-.boxFive {
-  width: 110px;
-  text-align: center;
-}
-
-
-
-.btn-size {
-  width: 120px;
-  height: 30px;
-  border-radius: 5px;
-  background: skyblue;
-  color: white;
-  border: none;
-  box-shadow: 1px 1px 4px lightgray;
-}
-
-.boxSix {
-  position: sticky
-}
-
-.boxSix button {
-  margin: 5px;
-}
-
-
-.boxSix button:hover {
-  background-color: darkslateblue;
-  font-size: large;
-  font-weight: bold;
-}
-
-
-
-.btn-close-size {
-  background-color: white;
-  border: none;
-  border-radius: 10px;
-  color: black;
-}
-
-
-.offcanvas-menu.active {
-  transform: translateX(0);
-}
-
-
-.close-btn {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  font-size: 25px;
-  color: #fff;
-}
-
-
-
-.offcanvas-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 30vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  transform: translateX(100%);
-  transition: all .4s ease;
-}
-
-.offvanvas-content {
-  padding: 20px;
-}
-
-.offcanvas-menu p {
-  color: #fff;
-  line-height: 200%;
-}
-
-
-.offcanvas-menu h2 {
-  color: #fff;
-  font-weight: bold;
-}
-
-
-
-
-.laptop-spec-point{
-  color: yellow;
 }
 
 

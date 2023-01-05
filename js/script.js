@@ -140,7 +140,7 @@ let cardListMb = `<div class="container-tip-grid">
 
 let contTbody = $('.container-tip-body');
 
-const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
+const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
 
     let viewChangeHandler = (mediaViewContent) => {  					// 3
     	if(mediaViewContent.matches === true){
@@ -149,12 +149,21 @@ const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
 
         $('.box-tip-grid').css('border', '1px dashed lightgray');
         $('.content-tip-grid img').css('width', '100%');
+        $('.card-list').css('width', 'auto').css('display', 'block');
+
+        $('.laptop-checkbox-list label').css('font-size', '12px').css('margin-right', '0px');
+        $('.laptop-checkbox-list span').css('margin-right', '0px');
+        
       } else {
       // alert('원본 사이즈 입니다.');
         contTbody.html(cardListWebNew);
         $('.card-list').css('flex-direction', '');
         $('.box-tip-grid').css('border', '1px dashed lightgray');
         $('.content-tip-grid img').css('width', '100%');
+        $('.card-list').css('width', '100%').css('display', 'flex');
+
+        $('.laptop-checkbox-list label').css('font-size', '16px').css('margin-right', '40px');
+        $('.laptop-checkbox-list span').css('margin-right', '20px');
       }
       
     }
@@ -170,51 +179,6 @@ const mediaViewContent = window.matchMedia(`(max-width: 768px)`)	// 1
 
 
 
-
-/* 반복 되는 것 배열로 통합 구축 작업 (체크박스 구역) */
-
-let checkbox = [
-  {name : '화면 크기대', check1 : '1kg 미만', check2 : '1.0~1.5kg', check3 : '1.5~2.0kg', check4 : '2.0~'},
-  {name : '무게', check1 : '17인치', check2 : '15인치', check3 : '14인치', check4 : '13인치'},
-  {name : '윈도우 설치유무', check1 : '윈도우 미포함', check2 : '윈도우 11 홈', check3 : '윈도우 11 프로', check4 : '윈도우 10 홈'},
-  {name : 'CPU 코어 수', check1 : '16코어', check2 : '8코어', check3 : '6코어', check4 : '4코어'},
-  {name : '그래픽카드', check1 : '내장그래픽', check2 : 'RTX3070', check3 : 'RTX3060', check4 : 'RTX3050'},
-]
-
-
-checkbox.forEach((data) => {
-
-  let checkboxHtml = `<div class="checkbox-title">
-  <span>${data.name}</span>
-</div>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check1}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check2}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check3}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check4}</span>
-  </div>
-</label>`;
-
-$('.container-checkbox').append(checkboxHtml);
-
-});
 
 
 /* 반복 되는 것 배열로 통합 구축 작업(상품카드 구역) */
@@ -263,7 +227,7 @@ laptop.forEach((data) => {
           <ul class="list-group list-group-flush">
             <li class="list-group-item">금액 : ${data.price}</li>
           </ul>
-        <div class="card-body">
+        <div class="card-body-btn">
           <button type="button" class="btn btn-lg btn-danger">구매링크</button>
           <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="노트북 사양" data-bs-content="${data.footerContent}">제품상세정보 보기</button>
         </div>`;
