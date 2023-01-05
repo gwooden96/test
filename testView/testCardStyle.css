@@ -5,32 +5,25 @@
 }
 
 .container {
-
-  background-color: rgb(118, 118, 118);
-  width: 1024px;
-  margin: auto;
+  width: 100%;
   height: 100%;
-  border: 1px solid red;
- 
-
 }
 
 .container-card-pcv {
-
-  width: 100%;
+  margin: auto;
+  width: 900px;
+  height: 200px;
   padding: 10px;
   box-sizing: border-box;
  
 }
 
 .content-row-pcv {
-
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   border: 1px solid lightgray;
-  height: 200px;
-
 }
 
 
@@ -41,24 +34,22 @@
 }
 
 .box-first {
-width: 30%;
-text-align: center;
+  width: 20%;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .box-first img {
-  max-width: 100%;
+  width: 100%;
 }
-
 
 
 .boxOne {
-  width: 40%;
   margin: 5px;
-  max-height: 100%;
 }
 
 .boxOne h5 {
-  margin-top: 10%;
+  margin-top: 5%;
   font-weight: bold;
   border-bottom: 1px solid lightgray ;
 }
@@ -82,15 +73,10 @@ text-align: center;
   color: blue;
 }
 
-.laptop-info-tf ul {
-  display: block;
-
-}
 
 .laptop-info-tf ul li {
   list-style: decimal;
   font-size: 15%;
-  
 }
 
 
@@ -106,74 +92,27 @@ text-align: center;
 
 
 .laptop-spec-price {
-  width: 10%;
+  width: 15%;
   text-align: center;
-  margin-left: 20px;
 }
 
 .laptop-info-button {
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .laptop-info-button button {
   margin: 5px;
-  
+  font-size: 100%;
 }
 
-/*
-.box-first {
-  max-width: 150px;
-  padding: 5px;
+
+.list01{
+  border: 1px solid black;
+  background-color: aqua;
 }
 
-.box-first .box-title-text {
+.list01 ul {
   text-align: center;
-}
-
-.box-first img {
-  width: 100%;
-
-}
-
-.boxOne {
-  max-width: 200px;
-  width: 100%;
-}
-
-.boxTwo {
-  display: flex;
-
-}
-
-
-
-.boxTwo .card-text-true {
-  color: blue;
-  font-size: large;
-}
-
-
-.boxTwo .card-text-false {
-  color: red;
-  font-size: large;
-}
-
-.box .box-nav-item {
-  list-style-type: decimal;
-}
-
-
-.boxFive {
-  width: 110px;
-  text-align: center;
-}
-
-
-
-.boxSix {
-  position: sticky;
-  width: 15%;
-}
-
-.boxSix button {
-  margin: 5px;
 }
