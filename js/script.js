@@ -153,6 +153,9 @@ const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
 
         $('.laptop-checkbox-list label').css('font-size', '12px').css('margin-right', '0px');
         $('.laptop-checkbox-list span').css('margin-right', '0px');
+
+        $('footer').css('position', 'static');
+        $('.footer-distrbuted .footer-left, .footer-distrbuted .footer-center, .footer-distrbuted .footer-right').css('display', 'block').css('width', '100%').css('marmgin-bottom', '40px').css('text-align', 'center');
         
       } else {
       // alert('원본 사이즈 입니다.');
@@ -164,6 +167,9 @@ const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
 
         $('.laptop-checkbox-list label').css('font-size', '16px').css('margin-right', '40px');
         $('.laptop-checkbox-list span').css('margin-right', '20px');
+
+        $('footer').css('position', '');
+        $('.footer-distrbuted .footer-left, .footer-distrbuted .footer-center, .footer-distrbuted .footer-right').css('display', '').css('width', '').css('marmgin-bottom', '').css('text-align', '');
       }
       
     }
