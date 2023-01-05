@@ -185,32 +185,32 @@ let checkbox = [
 checkbox.forEach((data) => {
 
   let checkboxHtml = `<div class="checkbox-title">
-  <span>${data.name}</span>
-</div>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check1}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check2}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check3}</span>
-  </div>
-</label>
-<label>
-  <div>
-    <input type="checkbox" name="">
-    <span>${data.check4}</span>
-  </div>
-</label>`;
+                          <span>${data.name}</span>
+                        </div>
+                        <label>
+                          <div>
+                            <input type="checkbox" name="">
+                            <span>${data.check1}</span>
+                          </div>
+                        </label>
+                        <label>
+                          <div>
+                            <input type="checkbox" name="">
+                            <span>${data.check2}</span>
+                          </div>
+                        </label>
+                        <label>
+                          <div>
+                            <input type="checkbox" name="">
+                            <span>${data.check3}</span>
+                          </div>
+                        </label>
+                        <label>
+                          <div>
+                            <input type="checkbox" name="">
+                            <span>${data.check4}</span>
+                          </div>
+                        </label>`;
 
 $('.container-checkbox').append(checkboxHtml);
 
@@ -272,10 +272,29 @@ laptop.forEach((data) => {
                           </div>
                         </div>
                       </div>`;
-                $('.ontainer-card-main').append(listCardWeb);
+
+                ('.ontainer-card-main').append(listCardWeb);/
   
       });
   
+
+
+let contCardMain = $('.container-card-main');
+
+const mediaViewContent2 = window.matchMedia(`(max-width: 768px)`)	// 1
+
+    let viewChangeHandler1 = (mediaViewContent2) => {  					// 3
+    	if(mediaViewContent2.matches === true){
+        //alert('모바일 사이즈 입니다.');
+        contCardMain.html(concon);
+      } else {
+      // alert('원본 사이즈 입니다.');
+        contCardMain.html(concon);
+      }
+      
+    }
+    viewChangeHandler1(mediaViewContent2);
+    mediaViewContent2.addEventListener("change", viewChangeHandler1);
 
 
       // const openBtn = document.querySelector('.button-spec-open');

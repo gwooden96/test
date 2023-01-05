@@ -4,33 +4,44 @@
   box-sizing: border-box;
 }
 
+.container {
 
-.container-card-pcv {
-  width: 100%;
+  background-color: rgb(118, 118, 118);
+  width: 1024px;
+  margin: auto;
   height: 100%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+  border: 1px solid red;
+ 
 
 }
 
+.container-card-pcv {
+
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+ 
+}
+
 .content-row-pcv {
+
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid lightgray;
-  
+  height: 200px;
+
 }
 
 
 
 .box {
-  padding: 5px;
+  padding: 1%;
   
 }
 
 .box-first {
-width: 300px;
+width: 30%;
 text-align: center;
 }
 
@@ -47,7 +58,7 @@ text-align: center;
 }
 
 .boxOne h5 {
-  margin-top: 20px;
+  margin-top: 10%;
   font-weight: bold;
   border-bottom: 1px solid lightgray ;
 }
@@ -71,10 +82,14 @@ text-align: center;
   color: blue;
 }
 
+.laptop-info-tf ul {
+  display: block;
+
+}
 
 .laptop-info-tf ul li {
   list-style: decimal;
-  font-size: 15px;
+  font-size: 15%;
   
 }
 

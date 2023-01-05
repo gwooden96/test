@@ -96,12 +96,13 @@
 
 /* 상세검색 체크박스  */
 
+
 .container-checkbox {
   max-width: 800px;
   margin: auto;
   display: flex;
-
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .checkbox-title-top{
@@ -130,7 +131,7 @@
 
 .checkbox-title span {
   color: gold;
-  border-left: 1px solid white;
+  border-left: 1px solid fwhite;
   margin-left: 20px;
   padding-left: 20px;
 }
@@ -139,16 +140,22 @@
 
 /* 상품카드 웹 버전용 */
 
+.ontainer-card-main {
+
+  width: 100%;
+  
+}
 
 .container-card-pcv {
-  width: 100%;
-  margin-top: 20px;
+
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .content-row-pcv {
-  max-width: 90%;
+  max-width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,7 +170,7 @@
 }
 
 .box-first {
-  max-width: 150px;
+  max-width: 15%;
   padding: 5px;
 }
 
@@ -178,12 +185,17 @@
 
 .boxOne {
   max-width: 200px;
-  width: 100%;
+  font-size: 12px;
+}
+
+.boxOne h5 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .boxTwo {
   display: flex;
-
+  font-size: 12px;
 }
 
 
@@ -191,6 +203,7 @@
 .boxTwo .card-text-true {
   color: blue;
   font-size: large;
+
 }
 
 
@@ -213,11 +226,13 @@
 
 .boxSix {
   position: sticky;
-  width: 15%;
+  width: 10%;
+  
 }
 
 .boxSix button {
   margin: 5px;
+  font-size: 12px;
 }
 
 
