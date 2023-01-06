@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="styleTest.css">
 
 </head>
-<body data-theme="dark">
+<body onload="initClock()">
 
   
   <!-- 위로가기 코드 -->
@@ -31,69 +31,70 @@
       </div>
     </form>
 
-
+    <div class="container">
   <!-- 네비바 -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-bg-bl">
-      <div class="container-fluid container-fluid-text">
-        <a class="navbar-brand" href="index.html">노트북 용도별 추천!</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="saleBoard.html">특가 소식</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="QnABoard.html">질문 게시판</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                용도별 추천
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">사무용 노트북</a></li>
-                <li><a class="dropdown-item" href="#">코딩 노트북</a></li>
-                <li><a class="dropdown-item" href="#">디자인 노트북</a></li>
-                <li><a class="dropdown-item" href="#">게임용 노트북</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2 login-button-size" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">검색</button>
-            <button class="btn btn-outline-success" type="button" onclick = "location.href = 'loginPage.html'">로그인/가입</button>
-          </form>
-        </div>
-      </div>
-    </nav>  
+      <div class="top-all-header">
+        <!-- 헤더 로고  -->
+        <div class="header">
+          <a href="#" class="header-logo">
+            <img src="img/LAPTOPCHIOOSELOGO.png" alt="랩탑초이스">
+          </a>
+          <!-- 헤더 슬라이드 이미지 -->
+          <div class="sildShow">
+            <span id="items-1"></span>
+            <span id="items-2"></span>
+            <span id="items-3"></span>
+            <div class="carousel-items items-1">
+              <a href="#items-3" class="arrow-prev arrow"></a>
+              <a href="#items-2" class="arrow-next arrow"></a>
+            </div>
 
+            <div class="carousel-items items-2">
+              <a href="#items-1" class="arrow-prev arrow"></a>
+              <a href="#items-3" class="arrow-next arrow"></a>
+            </div>
 
-    
-  <div class="container">
-
-    <!-- 슬라이드 쇼 -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="img/슬라이드1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-items items-3">
+              <a href="#items-2" class="arrow-prev arrow"></a>
+              <a href="#items-1" class="arrow-next arrow"></a>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="img/슬라이드4.jpg" class="d-block w-100" alt="...">
+        <!-- 헤더 메뉴바 -->
+          <div class="nav-menu-wrap">
+            <ul>
+              <a href="#"><li>특가 소식</li></a><span class="nav-menu-gate">|</span>
+              <a href="#"><li>질문 게시판</li></a><span class="nav-menu-gate">|</span>
+              <a href="#"><li>사무용 노트북</li></a><span class="nav-menu-gate">|</span>
+              <a href="#"><li>코딩용 노트북</li></a><span class="nav-menu-gate">|</span>
+              <a href="#"><li>디자인용 노트북</li></a><span class="nav-menu-gate">|</span>
+              <a href="#"><li>게임용 노트북</li></a>
+            </ul>
+          </div>
+          
+          <div class="bottom-util-wrap">
+            <form>
+              <!-- 검색창 -->
+              <div class="srch-area">
+                <input type="text" placeholder="검색어 입력">
+                <button>검색</button>
+                <!-- 시계 -->
+                  <div class="datetime">
+                    <div class="time">
+                      <span id="hour">00</span>:
+                      <span id="minutes">00</span>:
+                      <span id="seconds">00</span>
+                      <span id="period">AM</span>
+                    </div>
+                  </div>
+                <!-- 로그인 버튼 -->
+                <div class="login">
+                  <button type="button" onclick="location.href='../loginPage.html'">로그인/회원가입</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/슬라이드5.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
     <!-- 노트북 팁 그리드 -->
     <div class="container-tip-body-main">
