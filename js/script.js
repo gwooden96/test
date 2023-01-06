@@ -183,7 +183,10 @@ const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
     let viewChangeHandler = (mediaViewContent) => {  					// 3
     	if(mediaViewContent.matches === true){
         //alert('모바일 사이즈 입니다.');
+        /*
         contTbody.html(cardListMb);
+        
+        $('.container').css('width', '986px');
 
         $('.box-tip-grid').css('border', '1px dashed lightgray');
         $('.content-tip-grid img').css('width', '100%');
@@ -194,10 +197,11 @@ const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
 
         $('footer').css('position', 'static');
         $('.footer-distrbuted .footer-left, .footer-distrbuted .footer-center, .footer-distrbuted .footer-right').css('display', 'block').css('width', '100%').css('marmgin-bottom', '40px').css('text-align', 'center');
-        
+        */
       } else {
       // alert('원본 사이즈 입니다.');
         contTbody.html(cardListWebNew);
+        /*
         $('.card-list').css('flex-direction', '');
         $('.box-tip-grid').css('border', '1px dashed lightgray');
         $('.content-tip-grid img').css('width', '100%');
@@ -208,6 +212,7 @@ const mediaViewContent = window.matchMedia(`(max-width: 986px)`)	// 1 768px
 
         $('footer').css('position', '');
         $('.footer-distrbuted .footer-left, .footer-distrbuted .footer-center, .footer-distrbuted .footer-right').css('display', '').css('width', '').css('marmgin-bottom', '').css('text-align', '');
+      */
       }
       
     }

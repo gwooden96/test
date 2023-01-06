@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+
+
+}
 
 /* header */
 
 .header {
   display: flex;
   margin-top: 20px;
+  width: 1000px;
 }
 
 .header-logo {
@@ -105,7 +115,7 @@
 .nav-menu-wrap {
   background-color: #33383b;
   margin-bottom: 10px;
-  width: 100%;
+  width: 1000px;
 }
 
 .nav-menu-wrap a {
@@ -139,7 +149,7 @@
 
 
 .bottom-util-wrap {
-  width: 100%;
+  width: 1000px;
   margin-bottom: 10px;
   align-self: center;
 }
@@ -171,7 +181,7 @@
   border-radius: 5px;
   transition: 0.5s;
   margin: 0 auto;
-  width: 600px;
+  width: 400px
 }
 
 .time{
@@ -205,7 +215,7 @@
 }
 
 .login button {
-  width: 300px;
+  width: 200px;
   border-radius: 10px;
   background-color: #3f71ea;
   color: white;
@@ -237,7 +247,7 @@
 .container-tip-body-main {
   display: flex;
   justify-content : center;
-  width: 100%;
+  width: 1000px;
   background: rgb(237, 237, 237);
 }
 
@@ -255,6 +265,7 @@
 }
 
  .box-tip-grid {
+  border: 1px dashed lightgray;
   background: white;
   padding: 1rem;
   display: grid;
@@ -264,6 +275,10 @@
   border-radius: 10px;
 }
 
+.content-tip-grid img {
+  width: 718px;
+  display: flex;
+}
 
 
 
@@ -271,7 +286,7 @@
 /* 상세검색 체크박스  */
 
 .laptop-checkbox-container {
-  width: 100%;
+  width: 1000px;
 
 }
 
@@ -290,7 +305,7 @@
 .laptop-checkbox-list label {
   margin-right: 40px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 
@@ -299,7 +314,7 @@
 /* 상품카드 */
 
 .card-list-container {
-  width: 100%;
+  width: 1000px;
   display: flex;
   justify-content: center;
 }
@@ -383,7 +398,7 @@
 /* 상품카드 버전2 스타일*/
 .container-card-pcv {
   margin: auto;
-  width: 100%; /* 틀 고정 시 1300px */
+  width: 1000px; /* 틀 고정 시 1300px */
   height: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -511,6 +526,7 @@
   padding: 50px 50px 30px 40px;
   margin-top: 80px;
   text-align: center;
+  width: 1000px;
 }
 
 .footer-distrbuted .footer-left, .footer-distrbuted .footer-center, .footer-distrbuted .footer-right {
