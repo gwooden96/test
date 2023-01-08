@@ -156,6 +156,7 @@ body {
 
 .nav-menu-gate {
   color: white;
+  text-align: center;
 }
 
 .nav-menu-wrap ul {
@@ -175,6 +176,7 @@ body {
 
 /* menu nav MOBILE*/
 @media screen and (max-width: 986px) {
+
 
 .dropdownBox {
   display: flex;
